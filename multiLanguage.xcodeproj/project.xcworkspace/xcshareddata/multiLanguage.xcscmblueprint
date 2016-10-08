@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A81193B8D2E73D97F6C07CB4A7BA08FA5B4FF120",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3A416546A42EB65FC1E9ECC9898DC86C3F2487FC" : 0,
+    "A81193B8D2E73D97F6C07CB4A7BA08FA5B4FF120" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F836017F-B59B-496F-B3C0-C0CBF8F6DADD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3A416546A42EB65FC1E9ECC9898DC86C3F2487FC" : "multiLanguage\/cache\/",
+    "A81193B8D2E73D97F6C07CB4A7BA08FA5B4FF120" : "multiLanguage\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "multiLanguage",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "multiLanguage.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:wei1Wu\/test3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3A416546A42EB65FC1E9ECC9898DC86C3F2487FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wei1Wu\/multiLanguage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A81193B8D2E73D97F6C07CB4A7BA08FA5B4FF120"
+    }
+  ]
+}

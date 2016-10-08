@@ -10,7 +10,21 @@
 		292BC82F1DA7F8E600C97C80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292BC82E1DA7F8E600C97C80 /* AppDelegate.swift */; };
 		292BC8311DA7F8E600C97C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292BC8301DA7F8E600C97C80 /* Assets.xcassets */; };
 		292BC8341DA7F8E600C97C80 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292BC8321DA7F8E600C97C80 /* MainMenu.xib */; };
+		292BC8CF1DA93ED200C97C80 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 292BC8CE1DA93ED200C97C80 /* test.m */; };
+		292BC8DE1DA9405000C97C80 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292BC8D51DA9405000C97C80 /* MainMenu.xib */; };
+		292BC8DF1DA9405000C97C80 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 292BC8D71DA9405000C97C80 /* Info.plist */; };
+		292BC8E61DA9425400C97C80 /* funcs.m in Sources */ = {isa = PBXBuildFile; fileRef = 292BC8E51DA9425400C97C80 /* funcs.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		292BC8E21DA9405000C97C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292BC8D91DA9405000C97C80 /* cache.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 292BC89F1DA93BC000C97C80;
+			remoteInfo = cache;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		292BC82B1DA7F8E600C97C80 /* multiLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -18,6 +32,14 @@
 		292BC8301DA7F8E600C97C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		292BC8331DA7F8E600C97C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		292BC8351DA7F8E600C97C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292BC8CC1DA93ED200C97C80 /* multiLanguage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "multiLanguage-Bridging-Header.h"; sourceTree = "<group>"; };
+		292BC8CD1DA93ED200C97C80 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		292BC8CE1DA93ED200C97C80 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		292BC8D61DA9405000C97C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		292BC8D71DA9405000C97C80 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292BC8D91DA9405000C97C80 /* cache.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = cache.xcodeproj; sourceTree = "<group>"; };
+		292BC8E41DA9425400C97C80 /* funcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = funcs.h; sourceTree = "<group>"; };
+		292BC8E51DA9425400C97C80 /* funcs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = funcs.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +56,7 @@
 		292BC8221DA7F8E600C97C80 = {
 			isa = PBXGroup;
 			children = (
+				292BC8D01DA9405000C97C80 /* cache */,
 				292BC82D1DA7F8E600C97C80 /* multiLanguage */,
 				292BC82C1DA7F8E600C97C80 /* Products */,
 			);
@@ -54,8 +77,39 @@
 				292BC8301DA7F8E600C97C80 /* Assets.xcassets */,
 				292BC8321DA7F8E600C97C80 /* MainMenu.xib */,
 				292BC8351DA7F8E600C97C80 /* Info.plist */,
+				292BC8CD1DA93ED200C97C80 /* test.h */,
+				292BC8CE1DA93ED200C97C80 /* test.m */,
+				292BC8CC1DA93ED200C97C80 /* multiLanguage-Bridging-Header.h */,
 			);
 			path = multiLanguage;
+			sourceTree = "<group>";
+		};
+		292BC8D01DA9405000C97C80 /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				292BC8D11DA9405000C97C80 /* cache */,
+				292BC8D91DA9405000C97C80 /* cache.xcodeproj */,
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
+		292BC8D11DA9405000C97C80 /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				292BC8D51DA9405000C97C80 /* MainMenu.xib */,
+				292BC8D71DA9405000C97C80 /* Info.plist */,
+				292BC8E41DA9425400C97C80 /* funcs.h */,
+				292BC8E51DA9425400C97C80 /* funcs.m */,
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
+		292BC8DA1DA9405000C97C80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				292BC8E31DA9405000C97C80 /* cache.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,12 +158,28 @@
 			mainGroup = 292BC8221DA7F8E600C97C80;
 			productRefGroup = 292BC82C1DA7F8E600C97C80 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 292BC8DA1DA9405000C97C80 /* Products */;
+					ProjectRef = 292BC8D91DA9405000C97C80 /* cache.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				292BC82A1DA7F8E600C97C80 /* multiLanguage */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		292BC8E31DA9405000C97C80 /* cache.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = cache.app;
+			remoteRef = 292BC8E21DA9405000C97C80 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		292BC8291DA7F8E600C97C80 /* Resources */ = {
@@ -118,6 +188,8 @@
 			files = (
 				292BC8311DA7F8E600C97C80 /* Assets.xcassets in Resources */,
 				292BC8341DA7F8E600C97C80 /* MainMenu.xib in Resources */,
+				292BC8DF1DA9405000C97C80 /* Info.plist in Resources */,
+				292BC8DE1DA9405000C97C80 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				292BC82F1DA7F8E600C97C80 /* AppDelegate.swift in Sources */,
+				292BC8CF1DA93ED200C97C80 /* test.m in Sources */,
+				292BC8E61DA9425400C97C80 /* funcs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +213,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				292BC8331DA7F8E600C97C80 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		292BC8D51DA9405000C97C80 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292BC8D61DA9405000C97C80 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -232,11 +314,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = multiLanguage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = netease.multiLanguage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "multiLanguage/multiLanguage-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -244,11 +329,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = multiLanguage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = netease.multiLanguage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "multiLanguage/multiLanguage-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -271,6 +358,7 @@
 				292BC83A1DA7F8E600C97C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
